@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ab80ee29-4fbc-4878-9ee1-551cf0c94a82}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9d1f9ce8-dfa8-427f-9892-02da4fcb3f03}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d20d94a8-8c25-4239-b565-bd771d9ce44a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{a4c29c38-9201-4108-944b-228669b3fc26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{7593b069-85ac-4270-9bef-b06b0d919c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="register">
+      <UniqueIdentifier>{4b78f1a7-00e6-41e4-aced-c2c106f72e13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ECATSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECATSampleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\model.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="register\register.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\MD5.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="register\device.cpp">
+      <Filter>register</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ECATSample.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ECATSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECATSampleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\model.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\uiconfig.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="chart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="register\register.h">
+      <Filter>register</Filter>
+    </ClInclude>
+    <ClInclude Include="register\MD5.h">
+      <Filter>register</Filter>
+    </ClInclude>
+    <ClInclude Include="register\device.h">
+      <Filter>register</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="communication\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\ECATSample.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\ECATSample.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
